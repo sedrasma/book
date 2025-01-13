@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>قائمة الكتب</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <header>
+        <h1>مرحبا بكم في مكتبة الأحلام لبيع الكتب</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="home.html">الصفحة الرئيسية</a></li>
+                <li><a href="aboutus.html">من نحن</a></li>
+                <li><a href="Books.html">الكتب</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>قائمة الكتب المتوفرة </h2>
+        <br>
+        <table border="1" width="80%" align="center">
+            <thead>
+                <tr class="hi">
+                    
+                    <th>عنوان الكتاب</th>
+                    <th>السعر</th>
+                    <th>ISBN</th>
+                    <th>التفاصيل</th>
+                    <th>أختيار</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td class="name">ألف ليلة وليلة</td>
+                     <td class="price">25000 ل.س </td>
+                    <td>978-9770916738</td>
+                    <td><button onclick="toggleDetails(0)">إظهار التفاصيل</button></td>
+                    <td><input onclick='showSelect(this , 0)' type="radio" name="a"></td>
+                </tr>
+                <tr id="details1" class="details" style="text-align: right" >
+                    <td colspan="4">
+                        <p><strong>الناشر:</strong> دار المعارف</p>
+                        <p><strong>تصنيف الكتاب:</strong> قصص شعبية</p>
+                        <p><strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال إفريقيا...</p>
+                        <p> <strong>أهم ثلاث قصص:</strong></p>
+                        <ul>
+                            <li>علاء الدين والمصباح السحري</li>
+                            <li>علي بابا والأربعون حرامي</li>
+                            <li>رحلات السندباد السبع</li>
+                            <br>
+                            <img src="https://th.bing.com/th/id/OIP.MRQ1yo8AtlWroBFEji-CSQHaEK?w=290&h=180&c=7&r=0&o=5&pid=1.7" alt="" width="200" height="100">
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name">موسم الهجرة إلى الشمال</td>
+                    <td class="price">12000 ل.س</td>
+                    <td>978-9953891718</td>
+                    <td><button onclick="toggleDetails(1)">إظهار التفاصيل</button></td>
+                    <td><input onclick='showSelect(this , 1)' type="radio" name="a"></td>
+                    
+                </tr><tr id="details2" class="details" style="text-align: right;">
+                    <td colspan="4">
+                        <p><strong>الناشر:</strong> دار العودة في بيروت.</p>
+                        <p><strong>تصنيف الكتاب:</strong> رواية أدبية</p>
+                        <p><strong>ملخص:</strong>  تتناول الرواية قصة مصطفى سعيد، رجل سوداني يعود إلى قريته بعد دراسة طويلة في أوروبا. تستكشف الرواية الصدام بين الثقافات الشرقية والغربية، وتأثير الاستعمار على الهوية الشخصية والوطنية.
+                            ...</p>
+                        <p><strong>أهم ثلاث  شخصيات:</strong></p>
+                        <ul>
+                            <li>. مصطفى سعيد: البطل الرئيسي، رجل مثقف عاش في أوروبا وعاد إلى السودان.
+                            </li>
+                            <li>لراوي : شخصية تروي القصة وتتعرف على مصطفى سعيد.</li>
+                            <li>حسنة بنت محمود: زوجة مصطفى سعيد في السودان.</li>
+                            <br>
+                            <img src="https://th.bing.com/th/id/OIP.8lTNzuM9KINJeE-9b3sx9QHaMx?rs=1&pid=ImgDetMain" width="150" height="100">
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name">الخبز الحافي</td>
+                    <td class="price">10000 ل.س</td>
+                    <td>978-9953451080</td> <td><button onclick="toggleDetails(2)">إظهار التفاصيل</button></td>
+                    <td><input onclick='showSelect(this , 2)' type="radio" name="a"></td>
+                </tr>
+                <tr id="details3" class="details" style="text-align: right;">
+                    <td colspan="4">
+                        <p><strong>الناشر:</strong>  دار الساقي.</p>
+                        <p><strong>تصنيف الكتاب:</strong> سيرة ذاتية روائية</p>
+                        <p><strong>ملخص:</strong> الرواية عن طفولة محمد شكري في المغرب، ومعاناته مع الفقر والأمية والعنف، ورحلته نحو التعلم والتحرر الشخصي....</p>
+                        <p><strong>أهم ثلاث شخصيات:</strong></p>
+                        <ul>
+                            <li>محمد شكري: البطل والراوي، يروي تجربته الشخصية.</li>
+
+
+                             <li>والد محمد: شخصية قاسية ومؤثرة في حياة محمد.</li>
+                            
+                            
+                            <li>والدة محمد: تمثل الحنان والدعم في حياة محمد.</li>
+                            <br>
+                            <img src="https://th.bing.com/th/id/OIP.pGnUaKz3RU1bscapDoAExQAAAA?w=115&h=180&c=7&r=0&o=5&pid=1.7" width="150" height="100">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name">الرجال من المريخ والنساء من الزهرة</td>
+                    <td class="price">15000 ل.س</td>
+                    <td>978-0553384304</td> <td><button onclick="toggleDetails(3)">إظهار التفاصيل</button></td>
+                    <td><input onclick='showSelect(this , 3)' type="radio" name="a"></td>
+                </tr><tr id="details4" class="details" style="text-align: right;">
+                    <td colspan="4">
+                        <p><strong>الناشر:</strong> HarperCollins.</p>
+                        <p><strong>تصنيف الكتاب:</strong> تطوير ذاتي وعلاقات.</p>
+                        <p><strong>ملخص:</strong> يستكشف الكتاب الفروقات بين الرجال والنساء في التفكير والتواصل، ويقدم نصائح لتحسين العلاقات بين الجنسين.
+                        </p>
+                        <p><strong>أهم ثلاث أفكار:</strong></p>
+                        <ul>
+                            <li>لاختلافات بين الجنسين: الرجال والنساء يفكرون ويتواصلون بطرق مختلفة.</li>
+                            <li>أهمية التفهم: فهم هذه الاختلافات يساعد في تحسين العلاقات.</li>
+                            <li>التواصل الفعّال: تقديم النصائح لتعزيز التواصل بين الشريكين</li>
+                            <br>
+                            <img src="https://th.bing.com/th/id/OIP._twpFNPr0kvxbu6IvLhVrwHaHa?w=183&h=183&c=7&r=0&o=5&pid=1.7" width="200" height="100"
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name">نظرية الفستق</td>
+                    <td class="price">14000 ل.س</td>
+                    <td>978-6038230005</td> 
+                    <td><button onclick="toggleDetails(4)">إظهار التفاصيل</button></td>
+                    <td><input onclick='showSelect(this , 4)' type="radio" name="a"></td>
+                </tr><tr id="details5" class="details" style="text-align: right;">
+                    <td colspan="4">
+                        
+                      <p><strong>الناشر:</strong>دار الحضارة</p>
+                        <p><strong>تصنيف الكتاب:</strong> تطوير ذاتي وفكري.
+                        </p>
+                        <p><strong>ملخص:</strong>كتاب يضم مقالات تتناول تطوير الذات، التفكير الإيجابي، واتخاذ القرارات الصحيحة في الحياة</p>
+                        <p><strong>أهم ثلاث أفكار:</strong></p>
+                        <ul>
+                            <li>الوعي بالذات: أهمية فهم النفس وتطويرها.</li>
+                            <li>التفكير النقدي: تشجيع التفكير المستقل واتحاذ القرارات لواعية.</li>
+                            <li>التحطيط لمستقبل: أهمية وضع أهداف واضحة والعمل نحو تحقيقها.</li>
+                            <br>
+                            <img src="https://mal0ma.com/wp-content/uploads/2022/11/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%B9%D9%86-%D9%83%D8%AA%D8%A7%D8%A8-%D9%86%D8%B8%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%81%D8%B3%D8%AA%D9%82.jpg" width="200" height="100">
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name">في قلبي أنثى عبرية</td>
+                    <td class="price">13000 ل.س</td>
+                    <td>978-9933370651</td> 
+                    <td><button onclick="toggleDetails(5)">إظهار التفاصيل</button></td>
+                    <td><input onclick='showSelect(this , 5)' type="radio" name="a"></td>
+                </tr><tr id="details6" class="details" style="text-align: right;">
+                    <td colspan="4">
+                        <p><strong>الناشر:</strong> دار كيان </p>
+                        <p><strong>تصنيف الكتاب:</strong> رواية رومانسية اجتماعية</p>
+                        <p><strong>ملخص:</strong> تدور الرواية حول فتاة يهودية تعيش في الجنوب التونسي,وتتعرف على شاب مسلم,مما يثير قضايا الهوية والدين والحب .</p>
+                        <p><strong>أهم ثلاث شخصيات:</strong></p>
+                        <ul>
+                            <li>ندى: الفتاة اليهودية البطلة.</li>
+                            <li>أحمد: الشاب المسلم الذي تتعرف عليه ند .</li>
+                            <li>ريما:صديقة ندى التي تلعب دورا مهما في القصة.</li>
+                            <br>
+                            <img src="https://th.bing.com/th/id/OIP.KE9mVOjuy9mpoxcM9OYG1QAAAA?w=132&h=183&c=7&r=0&o=5&pid=1.7" width="150" height="100">   
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name">زوربا اليوناني</td>
+                    <td class="price">16000 ل.س</td>
+                    <td>978-0141187358</td> 
+                    <td><button onclick="toggleDetails(6)">إظهار التفاصيل</button></td>
+                    <td><input onclick='showSelect(this , 6)' type="radio" name="a"></td>
+                </tr>
+                <tr id="details7" class="details" style="text-align: right;">
+                    <td colspan="4">
+                        <p><strong>الناشر:</strong> دار الشروق</p>
+                        <p><strong>تصنيف الكتاب:</strong> رواية فلسفية</p>
+                        <p><strong>ملخص:</strong> تحكي عن علاقة بين مثقف يوناني ورجل بسيط يدعى زوربا, حيث يتعلم المثقف من زوربا معنى الحياة والحرية.</p>
+                        <p><strong>أهم ثلاث شخصيات:</strong></p>
+                        <ul>
+                            <li>الراوي (باسيل): المثقف اليوناني .</li>
+                            <li>ألكسيس زوربا: الرجل البسيط والحكيم .</li>
+                            <li>مدام هورتنس:امرأة فرنسية تعيش في اليونان وتتعرف على زوربا.</li>
+                            <br>
+                            <img src="https://th.bing.com/th/id/OIP.HefsTv8CFhAhbgt6WX8pewHaLH?w=184&h=276&c=7&r=0&o=5&pid=1.7" width="150" height="100">
+
+                        </ul>
+                    </td>
+                </tr>
+                
+               
+            </tbody>
+        </table>
+    </main>
+<br><br>
+<div class="formDiv" >
+    <button class="no-form">X</button>
+<form action="">
+   الاسم <br /><input  placeholder="يرجى إدخال الاسم باللغة العربية" type="text" name = "name" class=" inputName"><br/>
+    الرقم الوطني <br /><input placeholder="00-000000000" type="text" name = "id"  pattern="[0-9]{2}-[0-9]{9}" required ><br/>
+    تاريخ الميلاد<br /> <input placeholder="Birthday" type="date" name = "birthday"><br/>
+   رقم الهاتف <br /><input placeholder="Syriatel / MTN" type="tel"  name = " number" pattern="[0-9]{10}" ><br/>
+    الايميل<br /><input placeholder="Email" type="email" name = " email"><br/>
+    <input style="width: 50px;  height: 20px;" class="send" type="submit"><br/>
+</form>
+</div>
+
+<button class="next">متابعة </button>
+    
+<div class="selectedBook">
+    <div class="selectDiv">
+    <h2 style="color: white;">الكتاب المختار</h2>
+    <p class="namespan">اسم الكتاب :</p>
+   <p class="pricespan"> سعر الكتاب :</p>
+    <button class="confirmed">تأكيد</button>
+    <button class="close" > الغاء</button>
+</div>
+</div>
+<footer>
+        <p class="end">&copy; 2024 جميع الحقوق محفوظة - مكتبة الأحلام</p>
+    </footer>
+<script src="Books.js"></script>
+</body>
+</html>

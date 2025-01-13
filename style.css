@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #598ba4;
+    color: black;
+}
+
+.header-title {
+    font-size: 70px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.first{
+font-size: 70px;
+text-align: center;
+color: white;
+}
+
+.tena, tr.hi{
+    font-size: 20px;
+    color: red;
+}
+
+div.bigramy {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a,.rabt {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    font-size: 27px;
+    color: black;
+}
+
+h3 {
+font-size: 25px;
+}
+
+section ul {
+    font-size: 20px;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody{text-align: right;}
+
+#call {
+    font-size: 20px;
+}
+
+#orderForm {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#orderForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#orderForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#orderForm button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#orderForm button:hover {
+    background-color: #45a049;
+}
+
+.details{
+    text-align: right;
+    direction: rtl;
+}
+
+p.end{
+    text-align: center;
+    color: black;
+}
+
+.details{
+    display: none;
+}
+
+button.next{
+    background-color:goldenrod ;
+    border:1px solid rgb(112, 111, 109) ;
+    width : 50px ;
+     height : 30px ;
+     font-weight: bold;
+     border-radius: 5px ;
+     margin:0px 100px ;
+}
+button:hover{
+    color:rgb(0, 0, 0) !important;
+    background-color:#e93a3a !important;
+    cursor: pointer;
+    border-radius: 5px ;
+}
+div.formDiv , .selectedBook{
+    color: #ddd ;
+    position: absolute;
+    top :50% ;
+    left : 50% ;
+    transform: translate(-50% , -50%);
+    width: 90vw;
+    height : 95vh ;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: none;
+    border-radius: 10px;
+    
+}
+button.no-form{
+    margin:10px ;
+    width : 50px ;
+    height : 30px ;
+    color: rgb(0, 0, 0);
+    background-color: goldenrod ;
+    border: none;
+    border-radius: 5px;
+   
+}
+form{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+}
+form input{
+  direction: ltr;
+  width: 350px ;
+  height: 25px;
+}
+input.send{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color:goldenrod ;
+    border: none;
+    width : 100px !important;
+    height : 25px !important;
+    transition: 0.3s;
+    border-radius : 5px ;
+    
+}
+input.send:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+div.selectDiv{
+    margin:20px 30px;
+}
